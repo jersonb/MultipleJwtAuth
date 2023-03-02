@@ -1,0 +1,18 @@
+GET http://localhost:5202/Auth/user
+Accept:  application/json
+
+###
+
+GET http://localhost:5202/Auth/application
+Accept:  application/json
+
+### 
+GET http://localhost:5202/User
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImE1NDRlMDZmLTc0NmQtNGE2Ni1hNjAzLWExNGMwNjYxMmI1OCIsImp0aSI6IjIzY2Q1YWIwLWUwNTEtNDAzMS05ZDFhLWY4MTc2ODE1MjhjMiIsIm5iZiI6MTY3NzcxMjUzNSwiZXhwIjoxNjc3NzEyODM1LCJpYXQiOjE2Nzc3MTI1MzUsImlzcyI6IlVzZXIiLCJhdWQiOiJVc2VyIn0.9LYKw_vviKhxaBuneEbRqqUDr908IKqx0VhJImeXxgQoCxx6Xpxi-f5QXZcMdj-e6sVNA-x_2j4SJLhEx0oSQg
+
+###
+
+GET http://localhost:5202/Application
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImJjMGJmMDA3LTZiOTYtNDg0Zi1iNTg3LWRjODY3YjU3MGEzOCIsImp0aSI6IjU0ZWU5NDg4LTIxYTgtNDI4Yy05ZDEyLWQ4NGEwNmNhOGM3NSIsIm5iZiI6MTY3NzcxNDkzNiwiZXhwIjoxNjc3NzE4NTM2LCJpYXQiOjE2Nzc3MTQ5MzYsImlzcyI6IkFwcGxpY2F0aW9uIiwiYXVkIjoiQXBwbGljYXRpb24ifQ.4o1qohEIrNMCrtGi6p7GrF7ViCvXBUtJWVfgQDvCXSqvCJe3W1L_bpYd6HpSbORsl0cfHiyRULJIXdTDEBKq2Q
+
+
